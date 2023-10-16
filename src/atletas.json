@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "nome": "Alan Profexô",
+    "imagem": "src/img/alan.jpg",
+    "jogos": 10,
+    "vitorias": 6,
+    "derrotas": 4
+  },
+  {
+    "id": 2,
+    "nome": "Kasser Anka",
+    "imagem": "src/img/kassinho.jpg",
+    "jogos": 11,
+    "vitorias": 5,
+    "derrotas": 6
+  },
+  {
+    "id": 3,
+    "nome": "Romário",
+    "imagem": "src/img/romario.jpg",
+    "jogos": 943,
+    "vitorias": 3,
+    "derrotas": 940
+  }
+]

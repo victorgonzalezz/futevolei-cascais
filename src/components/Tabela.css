@@ -1,0 +1,24 @@
+table {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 10px;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.tabela-futevolei {
+    display: flex;
+}
+tbody {
+    padding: 10px;
+}
+
+.img {
+    width: 55px;
+    border-radius: 50%;
+}
