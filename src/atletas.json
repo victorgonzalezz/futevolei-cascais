@@ -4,16 +4,16 @@
     "nome": "Alan Profexô",
     "imagem": "src/img/alan.jpg",
     "jogos": 10,
-    "vitorias": 6,
-    "derrotas": 4
+    "vitorias": 9,
+    "derrotas": 1
   },
   {
     "id": 2,
     "nome": "Kasser Anka",
     "imagem": "src/img/kassinho.jpg",
-    "jogos": 11,
-    "vitorias": 5,
-    "derrotas": 6
+    "jogos": 12,
+    "vitorias": 1,
+    "derrotas": 11
   },
   {
     "id": 3,

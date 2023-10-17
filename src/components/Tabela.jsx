@@ -1,18 +1,20 @@
-import { useState, useEffect } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import atletasData from '../atletas.json';
 import './Tabela.css';
 
 export function Tabela() {
-    // const [atletas, setAtletas] = useState([]);
+    const [, setData] = useState([]);
 
-    // useEffect(() => {
-    //     // Carregue os dados dos atletas do arquivo JSON quando o componente for montado
-    //     setAtletas(atletasData);
-    // }, []);
-    function calcularPorcentagemAproveitamento(vitorias, jogos, derrotas) {
-        return ((vitorias - derrotas) / jogos) * 100;
+    const atletasCache = useMemo(() => atletasData, []);
+
+    useEffect(() => {
+        // Carrega os dados do arquivo .json
+        setData(atletasData);
+    }, []);
+
+    function calcularPorcentagemAproveitamento(vitorias, jogos) {
+        return (vitorias / jogos) * 100;
     }
-
     return (
         <section>
             <div className="tabela-futevolei">
@@ -27,7 +29,7 @@ export function Tabela() {
                         </tr>
                     </thead>
                     <tbody>
-                        {atletasData.map((atleta) => (
+                        {atletasCache.map((atleta) => (
                             <tr key={atleta.id}>
                                 <td>
                                     {atleta.id}
@@ -37,7 +39,7 @@ export function Tabela() {
                                 <td>{atleta.jogos}</td>
                                 <td>{atleta.vitorias}</td>
                                 <td>{atleta.derrotas}</td>
-                                <td>{calcularPorcentagemAproveitamento(atleta.vitorias, atleta.jogos, atleta.derrotas).toFixed(0)} %</td>
+                                <td>{calcularPorcentagemAproveitamento(atleta.vitorias, atleta.jogos).toFixed(1)} %</td>
                             </tr>
                         ))}
                     </tbody>

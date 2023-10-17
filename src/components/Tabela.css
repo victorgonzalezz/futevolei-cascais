@@ -14,6 +14,7 @@ th, td {
 .tabela-futevolei {
     display: flex;
 }
+
 tbody {
     padding: 10px;
 }
@@ -21,4 +22,5 @@ tbody {
 .img {
     width: 55px;
     border-radius: 50%;
+    border: 2px solid black;
 }
