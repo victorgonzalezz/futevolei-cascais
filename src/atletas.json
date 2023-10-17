@@ -22,5 +22,125 @@
     "jogos": 15,
     "vitorias": 3,
     "derrotas": 12
+  },
+  {
+    "id": 4,
+    "nome": "Victor",
+    "imagem": "src/img/victor.jpg",
+    "jogos": 15,
+    "vitorias": 3,
+    "derrotas": 12
+  },
+  {
+    "id": 5,
+    "nome": "Caique",
+    "imagem": "src/img/caique.jpg",
+    "jogos": 15,
+    "vitorias": 3,
+    "derrotas": 12
+  },
+  {
+    "id": 6,
+    "nome": "China",
+    "imagem": "src/img/china.jpg",
+    "jogos": 15,
+    "vitorias": 3,
+    "derrotas": 12
+  },
+  {
+    "id": 7,
+    "nome": "Ruben",
+    "imagem": "src/img/ruben.jpg",
+    "jogos": 15,
+    "vitorias": 3,
+    "derrotas": 12
+  },
+  {
+    "id": 8,
+    "nome": "Bruninho",
+    "imagem": "src/img/bruninho.jpg",
+    "jogos": 15,
+    "vitorias": 3,
+    "derrotas": 12
+  },
+  {
+    "id": 9,
+    "nome": "Eddie",
+    "imagem": "src/img/eddie.jpg",
+    "jogos": 15,
+    "vitorias": 3,
+    "derrotas": 12
+  },
+  {
+    "id": 10,
+    "nome": "João",
+    "imagem": "src/img/joao.jpg",
+    "jogos": 15,
+    "vitorias": 3,
+    "derrotas": 12
+  },
+  {
+    "id": 11,
+    "nome": "Daniel",
+    "imagem": "src/img/daniel.jpg",
+    "jogos": 15,
+    "vitorias": 3,
+    "derrotas": 12
+  },
+  {
+    "id": 12,
+    "nome": "Kleyber",
+    "imagem": "src/img/kleyber.jpg",
+    "jogos": 15,
+    "vitorias": 3,
+    "derrotas": 12
+  },
+  {
+    "id": 13,
+    "nome": "Carvalho",
+    "imagem": "src/img/carvalho.jpg",
+    "jogos": 15,
+    "vitorias": 3,
+    "derrotas": 12
+  },
+  {
+    "id": 14,
+    "nome": "Cotta",
+    "imagem": "src/img/cotta.jpg",
+    "jogos": 15,
+    "vitorias": 3,
+    "derrotas": 12
+  },
+  {
+    "id": 15,
+    "nome": "Che Guevara",
+    "imagem": "src/img/che.jpg",
+    "jogos": 15,
+    "vitorias": 3,
+    "derrotas": 12
+  },
+  {
+    "id": 16,
+    "nome": "Veloso",
+    "imagem": "src/img/veloso.jpg",
+    "jogos": 15,
+    "vitorias": 3,
+    "derrotas": 12
+  },
+  {
+    "id": 17,
+    "nome": "Tosta",
+    "imagem": "src/img/tosta.jpg",
+    "jogos": 15,
+    "vitorias": 3,
+    "derrotas": 12
+  },
+  {
+    "id": 18,
+    "nome": "Zidane",
+    "imagem": "src/img/ziza.jpg",
+    "jogos": 15,
+    "vitorias": 3,
+    "derrotas": 12
   }
 ]
