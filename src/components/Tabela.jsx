@@ -7,6 +7,7 @@ export function Tabela() {
 
     const atletasCache = useMemo(() => atletasData, []);
 
+
     useEffect(() => {
         // Carrega os dados do arquivo .json
         setData(atletasData);
@@ -15,6 +16,7 @@ export function Tabela() {
     function calcularPorcentagemAproveitamento(vitorias, jogos) {
         return (vitorias / jogos) * 100;
     }
+    
     return (
         <section>
             <div className="tabela-futevolei">
@@ -29,10 +31,12 @@ export function Tabela() {
                         </tr>
                     </thead>
                     <tbody>
-                        {atletasCache.map((atleta) => (
+                        {atletasCache.slice()
+                            .sort((a, b) => calcularPorcentagemAproveitamento(b.vitorias, b.jogos) - calcularPorcentagemAproveitamento(a.vitorias, a.jogos))
+                            .map((atleta, index) => (
                             <tr key={atleta.id}>
-                                <td>
-                                    {atleta.id}
+                                <td className='posicao'>
+                                        <strong className='numero'>{index + 1}</strong>
                                     <img className="img" src={atleta.imagem} alt={atleta.nome} />
                                     {atleta.nome}
                                 </td>

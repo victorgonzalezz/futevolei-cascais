@@ -19,8 +19,8 @@
     "id": 3,
     "nome": "Romário",
     "imagem": "src/img/romario.jpg",
-    "jogos": 943,
+    "jogos": 15,
     "vitorias": 3,
-    "derrotas": 940
+    "derrotas": 12
   }
 ]
