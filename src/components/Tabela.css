@@ -1,7 +1,7 @@
 table {
     font-family: Arial, sans-serif;
     border-collapse: collapse;
-    width: 100%;
+    width: 60%;
     margin: 10px;
 }
 
@@ -13,10 +13,15 @@ th, td {
 
 .tabela-futevolei {
     display: flex;
+    justify-content: center;
 }
 
 tbody {
     padding: 10px;
+}
+
+.tabela {
+    background-color: #FCFCFC;
 }
 
 .img {
@@ -32,10 +37,84 @@ tbody {
     align-items: center;
     padding: 10px;
     text-align: center;
-
 }
 
 .numero {
     padding: 10px;
     font-size: 20px;
+}
+
+.azul {
+    color: blue;
+    font-size: 1.4rem;
+}
+
+.cinza {
+    color: black;
+    font-size: 1.4rem;
+
+}
+
+.vermelho {
+    color: red;
+    font-size: 1.4rem;
+
+}
+
+.percentual {
+    background-color: #F5F5F5;
+}
+
+.vitorias {
+    font-weight: bold;
+    background-color: #F5F5F5;
+}
+
+.class-grupo-label {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icone-pikas {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    background-color: blue;
+    text-align: center;
+    font-size: 16px;
+    width: 9px;
+    height: 9px;
+}
+
+.pikas {
+    flex-wrap: nowrap;
+    color: #999999;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 15px;
+    margin-bottom: 2px;
+}
+
+.icone-rebaixado {
+    display: flex;
+    align-items: center;
+    background-color: red;
+    width: 9px;
+    height: 9px;
+}
+
+.rebaixado {
+    color: #999999;
+    background-image: none;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 15px;
+    margin-bottom: 2px;
+}
+
+@media screen and (max-width: 480px) {
+    .tabela {
+        border-radius: 4px;
+    }
 }

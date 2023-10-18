@@ -1,0 +1,26 @@
+[
+  {
+    "id": 3,
+    "nome": "Diogo",
+    "imagem": "src/img/diogo.jpg",
+    "jogos": 15,
+    "vitorias": 3,
+    "derrotas": 12
+  },
+{
+    "id": 3,
+    "nome": "Romário",
+    "imagem": "src/img/romario.jpg",
+    "jogos": 15,
+    "vitorias": 3,
+    "derrotas": 12
+  },
+{
+    "id": 3,
+    "nome": "Romário",
+    "imagem": "src/img/romario.jpg",
+    "jogos": 15,
+    "vitorias": 3,
+    "derrotas": 12
+  }
+]

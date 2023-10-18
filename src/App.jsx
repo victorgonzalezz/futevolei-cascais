@@ -1,5 +1,5 @@
 import { Header } from "./components/Header"
-import { Tabela } from "./components/tabela"
+import { Tabela } from "./components/Tabela"
 
 function App() {
 

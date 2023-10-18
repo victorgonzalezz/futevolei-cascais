@@ -1,5 +1,6 @@
 header {
     display: flex;
+    justify-content: center;
     color: #111;
     font-family: opensans;
     font-size: 1.625em;
@@ -9,4 +10,11 @@ header {
     margin: 10px;
     text-transform: uppercase;
 
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        display: flex;
+        justify-content: flex-start;
+    }
 }

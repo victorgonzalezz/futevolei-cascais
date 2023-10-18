@@ -3,144 +3,168 @@
     "id": 1,
     "nome": "Alan Profexô",
     "imagem": "src/img/alan.jpg",
-    "jogos": 10,
-    "vitorias": 9,
-    "derrotas": 1
+    "jogos": 0,
+    "vitorias": 0,
+    "derrotas": 0
   },
   {
     "id": 2,
     "nome": "Kasser Anka",
     "imagem": "src/img/kassinho.jpg",
-    "jogos": 12,
-    "vitorias": 1,
-    "derrotas": 11
+    "jogos": 0,
+    "vitorias": 0,
+    "derrotas": 0
   },
   {
     "id": 3,
     "nome": "Romário",
     "imagem": "src/img/romario.jpg",
-    "jogos": 15,
-    "vitorias": 3,
-    "derrotas": 12
+    "jogos": 0,
+    "vitorias": 0,
+    "derrotas": 0
   },
   {
     "id": 4,
     "nome": "Victor",
     "imagem": "src/img/victor.jpg",
-    "jogos": 15,
-    "vitorias": 3,
-    "derrotas": 12
+    "jogos": 0,
+    "vitorias": 0,
+    "derrotas": 0
   },
   {
     "id": 5,
     "nome": "Caique",
     "imagem": "src/img/caique.jpg",
-    "jogos": 15,
-    "vitorias": 3,
-    "derrotas": 12
+    "jogos": 0,
+    "vitorias": 0,
+    "derrotas": 0
   },
   {
     "id": 6,
     "nome": "China",
     "imagem": "src/img/china.jpg",
-    "jogos": 15,
-    "vitorias": 3,
-    "derrotas": 12
+    "jogos": 0,
+    "vitorias": 0,
+    "derrotas": 0
   },
   {
     "id": 7,
     "nome": "Ruben",
     "imagem": "src/img/ruben.jpg",
-    "jogos": 15,
-    "vitorias": 3,
-    "derrotas": 12
+    "jogos": 0,
+    "vitorias": 0,
+    "derrotas": 0
   },
   {
     "id": 8,
     "nome": "Bruninho",
     "imagem": "src/img/bruninho.jpg",
-    "jogos": 15,
-    "vitorias": 3,
-    "derrotas": 12
+    "jogos": 0,
+    "vitorias": 0,
+    "derrotas": 0
   },
   {
     "id": 9,
     "nome": "Eddie",
     "imagem": "src/img/eddie.jpg",
-    "jogos": 15,
-    "vitorias": 3,
-    "derrotas": 12
+    "jogos": 0,
+    "vitorias": 0,
+    "derrotas": 0
   },
   {
     "id": 10,
     "nome": "João",
     "imagem": "src/img/joao.jpg",
-    "jogos": 15,
-    "vitorias": 3,
-    "derrotas": 12
+    "jogos": 0,
+    "vitorias": 0,
+    "derrotas": 0
   },
   {
     "id": 11,
     "nome": "Daniel",
     "imagem": "src/img/daniel.jpg",
-    "jogos": 15,
-    "vitorias": 3,
-    "derrotas": 12
+    "jogos": 0,
+    "vitorias": 0,
+    "derrotas": 0
   },
   {
     "id": 12,
     "nome": "Kleyber",
     "imagem": "src/img/kleyber.jpg",
-    "jogos": 15,
-    "vitorias": 3,
-    "derrotas": 12
+    "jogos": 0,
+    "vitorias": 0,
+    "derrotas": 0
   },
   {
     "id": 13,
     "nome": "Carvalho",
     "imagem": "src/img/carvalho.jpg",
-    "jogos": 15,
-    "vitorias": 3,
-    "derrotas": 12
+    "jogos": 0,
+    "vitorias": 0,
+    "derrotas": 0
   },
   {
     "id": 14,
     "nome": "Cotta",
     "imagem": "src/img/cotta.jpg",
-    "jogos": 15,
-    "vitorias": 3,
-    "derrotas": 12
+    "jogos": 0,
+    "vitorias": 0,
+    "derrotas": 0
   },
   {
     "id": 15,
     "nome": "Che Guevara",
     "imagem": "src/img/che.jpg",
-    "jogos": 15,
-    "vitorias": 3,
-    "derrotas": 12
+    "jogos": 0,
+    "vitorias": 0,
+    "derrotas": 0
   },
   {
     "id": 16,
     "nome": "Veloso",
     "imagem": "src/img/veloso.jpg",
-    "jogos": 15,
-    "vitorias": 3,
-    "derrotas": 12
+    "jogos": 0,
+    "vitorias": 0,
+    "derrotas": 0
   },
   {
     "id": 17,
     "nome": "Tosta",
     "imagem": "src/img/tosta.jpg",
-    "jogos": 15,
-    "vitorias": 3,
-    "derrotas": 12
+    "jogos": 0,
+    "vitorias": 0,
+    "derrotas": 0
   },
   {
     "id": 18,
     "nome": "Zidane",
     "imagem": "src/img/ziza.jpg",
-    "jogos": 15,
-    "vitorias": 3,
-    "derrotas": 12
+    "jogos": 0,
+    "vitorias": 0,
+    "derrotas": 0
+  },
+  {
+    "id": 19,
+    "nome": "Diogo",
+    "imagem": "src/img/diogo.jpg",
+    "jogos": 0,
+    "vitorias": 0,
+    "derrotas": 0
+  },
+  {
+    "id": 20,
+    "nome": "Juliano",
+    "imagem": "src/img/juliano.jpg",
+    "jogos": 0,
+    "vitorias": 0,
+    "derrotas": 0
+  },
+  {
+    "id": 21,
+    "nome": "David",
+    "imagem": "src/img/david.jpg",
+    "jogos": 0,
+    "vitorias": 0,
+    "derrotas": 0
   }
 ]
