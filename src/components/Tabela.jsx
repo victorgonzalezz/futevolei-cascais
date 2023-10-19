@@ -38,7 +38,7 @@ export function Tabela() {
                             <tr key={atleta.id}>
                                 <td className='posicao'>
                                         <span className={`numero ${index < 2 ? 'azul' : index === atletasCache.length - 1 ? 'vermelho' : 'cinza'}`}>{index + 1}</span>
-                                        <img className="img" src={URL.createObjectURL(new File([atleta.imagem]), 'imagem')} alt={atleta.nome} />
+                                        <img className="img" src={URL.createObjectURL(new File([atleta.imagem], `${atleta.id}.jpg`))} alt={atleta.nome} />
                                     {atleta.nome}
                                 </td>
                                 <td className='jogos'>{atleta.jogos}</td>
