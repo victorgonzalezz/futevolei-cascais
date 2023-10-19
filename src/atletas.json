@@ -2,7 +2,7 @@
   {
     "id": 1,
     "nome": "Alan Profexô",
-    "imagem": "src/img/alan.jpg",
+    "imagem": "/alan.jpg",
     "jogos": 0,
     "vitorias": 0,
     "derrotas": 0

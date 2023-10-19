@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
+
 import atletasData from '../atletas.json';
 import './Tabela.css';
 
