@@ -83,9 +83,9 @@
     "id": 11,
     "nome": "Daniel",
     "imagem": "/img/daniel.jpg",
-    "jogos": 2,
-    "vitorias": 2,
-    "derrotas": 0
+    "jogos": 5,
+    "vitorias": 3,
+    "derrotas": 2
   },
   {
     "id": 12,

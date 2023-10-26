@@ -1,18 +1,7 @@
-import { useEffect, useMemo, useState } from 'react';
-
 import atletasData from '../atletas.json';
 import './Tabela.css';
 
 export function Tabela() {
-    const [, setData] = useState([]);
-
-    const atletasCache = useMemo(() => atletasData, []);
-
-
-    useEffect(() => {
-        // Carrega os dados do arquivo .json
-        setData(atletasData);
-    }, []);
 
     function calcularPorcentagemAproveitamento(vitorias, jogos) {
         return (vitorias / jogos) * 100;
@@ -32,19 +21,19 @@ export function Tabela() {
                         </tr>
                     </thead>
                     <tbody>
-                        {atletasCache.slice()
+                        {atletasData
                             .sort((a, b) => calcularPorcentagemAproveitamento(b.vitorias, b.jogos) - calcularPorcentagemAproveitamento(a.vitorias, a.jogos))
                             .map((atleta, index) => (
                             <tr key={atleta.id}>
                                 <td className='posicao'>
-                                        <span className={`numero ${index < 2 ? 'azul' : index === atletasCache.length - 1 ? 'vermelho' : 'cinza'}`}>{index + 1}</span>
+                                        <span className={`numero ${index < 2 ? 'azul' : index === atletasData.length - 1 ? 'vermelho' : 'cinza'}`}>{index + 1}</span>
                                     <img className="img" src={atleta.imagem} alt={atleta.nome} />
                                     {atleta.nome}
                                 </td>
                                 <td className='jogos'>{atleta.jogos}</td>
                                 <td className='vitorias'>{atleta.vitorias}</td>
                                 <td className='derrotas'>{atleta.derrotas}</td>
-                                <td className='percentual'>{calcularPorcentagemAproveitamento(atleta.vitorias, atleta.jogos).toFixed(0)}</td>
+                                <td className='percentual'>{calcularPorcentagemAproveitamento(atleta.vitorias, atleta.jogos).toFixed(1)}</td>
                             </tr>
                         ))}
                     </tbody>
